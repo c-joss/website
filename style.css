@@ -1,9 +1,19 @@
 body {
-    background: #DBA184;
+    background: #FFFFE4;
 }
 
 h1 {
     font-size: 40px;
-    color: rgb(55, 4, 102);
-    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #C28285;
+    width: max-content;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #E6D9C8;
+    padding: 50px 80px;
+    text-align: center;
+    border-style: double;
+    border-color: black;
+    
 }
