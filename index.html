@@ -5,6 +5,7 @@
         <title>Website</title>
     </head>
     <body>
+        <div id="wrapper">
         <nav>
             <p id="find">find me on linkedIn</p>
             <p id="logo">
@@ -13,28 +14,55 @@
             </p>
             </a>
         </nav>
-        <div id="name">
-            <h1>Courtney MacGregor</h1>
+        <div id="nameContainer">
+            <div id="pink">
+                <div id="yellow"></div>
+                <div id="name">
+                    <h1>Courtney MacGregor</h1>
+                </div>
+            </div>
         </div>
         <script src="script.js"></script>
-        <div class="menu">
-            <div>
-            <h2>Intro</h2>
-            <h2>Projects</h2>
-            </div>
-            <div></div>
-            <div class="cat"></div>            
-        </div>
+        <div id="menu" class="clearfix">
+            <ul>
+                <li>About</li>
+                <li>Projects</li>
+            </ul>
+            <div id="ball"></div>
+            <div id="cat"></div>            
+        </div>     
         <div class="content">
-            <img src="./resources/images/IMG_2118.jpg" height="50px" alt="Image of Courtney">
-            <p id="about">
-                I'm an aspiring software engineer and a passionate cat lover. I currently work as a Customer Service Supervisor in the shipping industry. 
-                In my spare time, I love traveling, gaming, and reading.
-            </p>            
-            <p id="projects">Coming Soon</p>
+            <div id="bumper1" class="bumper">
+                <div class="circles" id="circle1"></div>
+                <div class="diamonds" id="circle2"></div>
+                <div class="circles" id="circle3"></div>
+            </div>  
+            <div id="intro">
+            <img src="./resources/images/IMG_2118.jpg" height="600px" alt="Image of Courtney" class="myPic">
+            <div id="about">
+            <h2>About me</h2>
+            <p>
+                I'm an aspiring software engineer with a deep love for cats (I might even qualify as a borderline crazy cat lady!). 
+                For the past four months, I've been immersed in learning software engineering, with the goal of eventually finding my niche in the industry. 
+                Currently, I work as a Customer Service Supervisor for a shipping line agency. In my free time, I enjoy traveling, gaming, and reading.
+            </p>
+            </div>
+            </div>
+            <div id="bumper2" class="bumper">
+                <div class="diamonds" id="diamond1"></div>
+                <div class="circles" id="circle2"></div>
+                <div class="diamonds" id="diamond2"></div>
+            </div>
+            <div id="projects">
+                <h2>My projects</h2>               
+            <p>
+                Coming soon
+            </p>
+            </div>
         </div>
         <footer>
             <blockquote>The function of good software is to make the complex appear to be simple.</blockquote>
         </footer>
+        </div>
     </body>
 </html>
