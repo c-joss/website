@@ -1,22 +1,21 @@
-const h3 = document.createElement("h3");
-h3.textContent = "This content added by JavaScript";
-
-document.querySelector("body").appendChild(h3);
-
-
-
-document.getElementById("menuAbout").addEventListener("mouseover",
+document.getElementById("Hi").addEventListener("mouseover",
     function kitty1() {
-        document.getElementById("cat").style.backgroundImageSource = "url(./resources/images/cat-paw-up.png)"
-    }).false;
+        document.getElementById("cat").style.backgroundImage = "url(./resources/images/cat-paw-up.png)";
+        document.getElementById("ball").style.backgroundImage = "url(./resources/images/globe.png)"; 
+        document.getElementById("ball").style.backgroundPositionY = "0px"
+    }, false);
 
-kitty1()
 
-
-document.getElementById('menuProjects').addEventListener('mouseover',
+document.getElementById("Bye").addEventListener('mouseover',
     function kitty2() {
-        document.getElementById('cat').style.backgroundImageSource = url('./resources/images/cat-paw-down.png')inherit;
-    }).false;
+        document.getElementById("cat").style.backgroundImage = "url(./resources/images/cat-paw-down.png)";
+        document.getElementById("ball").style.backgroundImage = "url(./resources/images/globe.png)";
+        document.getElementById("ball").style.backgroundPositionY = "100px"
+    }, false);
+
+
+
+
 
 
 
