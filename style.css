@@ -31,7 +31,7 @@ header {
     font-size: 30px;
     font-family: cursive, Arial, Helvetica, sans-serif; 
     text-align: left;
-    padding-left: 10px;
+    padding-left: 30px;
     min-height: 50px;
 }
 
@@ -84,7 +84,7 @@ header {
     float: right;
 }
 
-div #menu {
+menu {
     position: relative;
     width: 530px;
     height: 350px;
@@ -100,43 +100,52 @@ div #menu {
 
 }
 
-div#menu ul {
+menu#menu ul {
     font-family: cursive, Arial, Helvetica, sans-serif; 
     font-size: 50px;
     padding: 10px;
     width: 100px;
     text-align: right;
     float: left;
-    margin-top: 100px;
+    margin-top: 80px;
     list-style-type: none;
     float: left;
     z-index: 10;
 }
 
-#menu .hover:hover {
+.button:hover {
     z-index: 100;
     transform: scale(120%);
     transition: 2s;
 }
 
 li:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #543261;
+    font-size: 40px;
+    font-family: cursive, Arial, Helvetica, sans-serif; 
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
 }
 
 div #ball {
-    height: 400px;
+    height: 300px;
     width: 80px;
     background-image: url();
     background-size: 50px;
     background-repeat: no-repeat;
     background-position-x: center;
     background-blend-mode: color-burn;
-    margin-top: 125px;
+    margin-top: 105px;
     float: left;
 }
 
 div #cat {
-    background-image: url();
+    background-image: url(./resources/images/cat.PNG);
     height: 400px;
     width: 280px;
     background-size: 300px;
@@ -146,18 +155,37 @@ div #cat {
     margin-right: 50px;
 }
 
-#content {
+main {
     margin-bottom: 200px;
-    margin-top: 400px;
+    margin-top: 100px;
     align-items: center;
     text-align: center;
     position: relative;
 }
 
-.myPic {
+#myPic {
+    position: absolute;
+    padding-left: 200px;
     float: right;
     padding: 50px;
     margin-right: 50px;
+    background-size: 700px;
+    height:500px;
+    width: 590px;
+    border-top-left-radius: 75%;
+    background-color: #2C3613;
+    background-repeat: no-repeat;
+    background-position: bottom right 0;
+}
+
+#background {
+    position: relative;
+    float: right;
+    padding: 50px;
+    margin-right: 50px;
+    background-size: 600px;
+    height:600px;
+    width: 690px;
     border-top-left-radius: 75%;
     background-color: #2C3613;
 }
@@ -199,10 +227,6 @@ div#hello p {
     font-size: 20px;
 }
 
-h2 {
-    font-size: 30px;
-    margin-top: 70px;
-}
 
 footer {
     clear: both;
@@ -212,14 +236,9 @@ footer {
     background-color: #54495c;    
 }
 
-blockquote {
-    font-size: 20px;
+
+#end {
+    font-size: 40px;
     text-align: center;
-    bottom: 0;
+    padding-top: 100px;
 }
-
-
-
-
-
-

@@ -5,25 +5,31 @@
         <title>Website</title>
     </head>
     <body>
-        <div id="wrapper" class="clearfix">
+        <div id="wrapper">
             <header>
              Courtney Macgregor
             </header>
             <div id="catCage">
                 <div class="lightPurple" id="left"></div>
                 <div class="lightPurple" id="right"></div>
-                <div id="menu" class="clearfix">
+                <menu id="menu" class="clearfix">
                     <ul>
-                    <li id="Hi" class="hover">Hi</li>
-                    <li id="Bye" class="hover">Bye</li>
+                    <li class="hover" id="Hi">
+                        <button class="button" onclick="clickHi()">Hi</button>
+                    </li>
+                    <li class="hover" id="Bye">
+                        <button class="button" onclick="clickBye()">Bye</button>
+                    </li>
                     </ul>
                     <div id="ball"></div>
                     <div id="cat"></div>            
-                </div> 
+                </menu> 
             </div>       
-                <div id="content" class="clearfix">
-                    <div id="intro">
-                        <img src="./resources/images/IMG_2118.jpg" height="600px" alt="Image of Courtney" class="myPic">
+                <main id="content" class="clearfix">
+                    <div class="hidden" id="intro">
+                        <div id="background">
+                            <div id="myPic"></div>
+                        </div>
                         <div id="hello">
                             <h2>Hello</h2>
                             <p>
@@ -33,11 +39,11 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </main>
             </div>
         </div>
             <footer>
-                 <blockquote>The function of good software is to make the complex appear to be simple.</blockquote>
+                <div id="end">I said good day.</div>
             </footer>
         <script src="script.js"></script>
     </body>
