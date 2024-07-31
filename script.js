@@ -24,29 +24,22 @@ document.getElementById("Bye").addEventListener("mouseout",
         document.getElementById("ball").style.backgroundImage = ""; 
         }, false);  
 
-function clickBye() {
-    document.getElementById("myPic").style.backgroundImage = "url(./resources/images/sleepingCat.png)";
-    document.getElementById("myPic").style.backgroundPositionX = "50px";
-    var divide = document.getElementById("hello");
-  if (divide.style.display === "none") {
-    divide.style.display = "block";
-  } else {
-    divide.style.display = "none";   
-}}
-
 function clickHi() {
     document.getElementById("myPic").style.backgroundImage = "url(./resources/images/IMG_2118.jpg)";
     document.getElementById("myPic").style.backgroundPositionX = "0px";
-    var divide = document.getElementById("hello");
-    if (divide.style.display === "block") {
-      divide.style.display = "none";
-    } else {
-      divide.style.display = "block";   
-}}
+    document.getElementById("hello").style.display = "block"; 
+    document.getElementById("hi").style.display = "block"; 
+    document.getElementById("greet").style.display = "block"; 
+    document.getElementById("hello").style.display = "block"; 
+    document.getElementById("seeYa").style.display = "none"; 
+}
 
-
-
-
-
-
-
+function clickBye() {
+    document.getElementById("myPic").style.backgroundImage = "url(./resources/images/sleepingCat.png)";
+    document.getElementById("myPic").style.backgroundPositionX = "50px";
+    document.getElementById("hi").style.display = "none"; 
+    document.getElementById("greet").style.display = "none"; 
+    document.getElementById("hello").style.display = "block"; 
+    document.getElementById("seeYa").style.display = "block"; 
+    document.getElementById("end").style.display = "block"; 
+}
